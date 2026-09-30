@@ -1,0 +1,23 @@
+1. Tình trạng máy tính
+
+Máy mở 30 tab Chrome nên nhiều dữ liệu được đưa vào RAM để xử lý. Khi RAM lên 98%, máy gần như hết bộ nhớ trống nên CPU không thể xử lý dữ liệu một cách nhanh chóng. Vì vậy xuất hiện hiện tượng chuột giật, máy lag, ứng dụng phản hồi chậm.
+
+2. Sơ đồ IPO đơn giản
+Input:Người dùng mở và thao tác trên chrome
+Process:CPU xử lý dữ liệu
+        RAM ->> Storage (HDD/SSD)
+ OUTPUT:Hiển thị website lên màn hình
+Khi mở khoảng 30 tab Chrome, nhiều dữ liệu của các tab được đưa vào RAM để CPU truy cập nhanh. Khi RAM gần đầy (98%), hệ điều hành sẽ chuyển một phần dữ liệu ít được sử dụng từ RAM sang Page File trên ổ cứng (Swap).
+3. Ba hành động giải phóng RAM ngay lập tức
+
+1. Đóng các tab Chrome không cần thiết
+→ Giảm số lượng dữ liệu phải lưu trong RAM.
+
+2. Tắt các ứng dụng chạy nền không cần thiết
+→ Mở Task Manager → Processes → chọn ứng dụng → End Task đối với chương trình đang chiếm nhiều RAM mà bạn không sử dụng.
+
+3. Khởi động lại máy tính
+→ Giải phóng phần lớn RAM đang bị các ứng dụng chiếm dụng và giúp hệ thống trở lại trạng thái ổn định.
+Khi thay SSD và HDD:
+HDD: tốc độ đọc/ghi chậm → việc chuyển dữ liệu giữa RAM ↔ ổ cứng mất nhiều thời gian → giật lag rõ rệt, chuột phản hồi chậm.
+SSD NVMe: tốc độ đọc/ghi nhanh hơn HDD rất nhiều → việc Swap nhanh hơn → ít lag hơn, nhưng vẫn chậm hơn sử dụng RAM thật.
